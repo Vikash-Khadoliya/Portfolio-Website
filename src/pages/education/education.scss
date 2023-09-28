@@ -1,0 +1,82 @@
+.edu-box {
+  background-color: black;
+  margin-bottom: 100px;
+  .education {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 0px;
+  }
+  .edu {
+    background-image: linear-gradient(60deg, #29323c 0%, #2d353e 100%);
+    padding: 30px 0px 30px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    .img-box {
+      height: 200px;
+      width: 320px;
+      img {
+        height: 100%;
+        width: 100%;
+        box-shadow: 2px 2px 5px #000000;
+      }
+    }
+    .text {
+      flex-basis: 55%;
+      .st5 {
+        padding-block: 8px;
+      }
+      .st4 {
+        color: #b617ff;
+      }
+    }
+    transition: 0.1s ease-in;
+  }
+  .school,
+  .college {
+    &:hover {
+      box-shadow: 5px 5px 10px #001e3f;
+      background-image: linear-gradient(60deg, #233448 0%, #001e3f 100%);
+      transform: scaleX(1.01);
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .edu-box {
+    padding-block: 60px;
+
+    .education {
+      .edu {
+        transform: scale(0.95);
+        .img-box {
+          height: 180px;
+          width: 280px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .edu-box {
+    padding-block: 60px;
+
+    .education {
+      .edu {
+        padding: 35px 40px;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        .img-box {
+          max-height: 280px;
+          max-width: 400px;
+          object-fit: fill;
+        }
+      }
+    }
+  }
+}

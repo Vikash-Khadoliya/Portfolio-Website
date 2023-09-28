@@ -1,0 +1,139 @@
+.project {
+  padding-block: 50px;
+  background-color: #01122ae8;
+  .projects {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    .project-parent {
+      padding: 12px;
+      width: 45%;
+      .project-box {
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0px 0px 5px #f2f2f2e8;
+        border-radius: 12px;
+
+        .image-box {
+          width: 100%;
+          height: 400px;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.5s ease;
+            &:hover {
+              transform: scale(1.05);
+            }
+          }
+        }
+
+        .project-text {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          z-index: 666;
+          padding-block: 8px;
+          text-align: center;
+          color: white;
+          font-weight: bold;
+          background: linear-gradient(
+            0deg,
+            rgb(0, 0, 0, 0.8) 88%,
+            rgba(0, 64, 51, 1) 80%
+          );
+          transform: translateY(89%);
+          transition: 0.6s ease;
+
+          .button-box {
+            padding-top: 12%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 160px;
+            a {
+              text-decoration: none;
+            }
+            .btn {
+              text-align: center;
+              padding: 6px 12px;
+              border-radius: 4px;
+              color: whitesmoke;
+              background-color: #9000d2;
+              font-weight: bold;
+              box-shadow: 0px 0px 3px #b71bff;
+              transition: 0.2s ease-in;
+
+              &:hover {
+                background-color: #a300ee;
+              }
+
+              &:active {
+                background-color: #b413ff;
+              }
+            }
+          }
+          &:hover {
+            text-decoration-color: rgb(202, 85, 85);
+          }
+        }
+      }
+      &:hover {
+        .project-text {
+          transform: translateY(35%);
+          // padding-block: 40px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .project {
+    .projects {
+      .project-parent {
+        width: 50%;
+        .project-box {
+          .image-box {
+            height: 350px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project {
+    .projects {
+      .project-parent {
+        padding-inline: 30px;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project {
+    .projects {
+      .project-parent {
+        .project-box {
+          border-radius: 4px;
+
+          .image-box {
+            height: 300px;
+          }
+        }
+      }
+    }
+  }
+}

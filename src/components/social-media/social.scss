@@ -1,0 +1,54 @@
+.social {
+  margin-top: 14%;
+
+  .social-icon {
+    .icon-list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      z-index: 999;
+      .list {
+        list-style: none;
+
+        .icon {
+          text-decoration: none;
+          font-size: 1.7rem;
+          color: rgb(225, 225, 225);
+          padding: 6px;
+          transition: 0.1s ease-out;
+          user-select: none;
+
+          &:hover {
+            color: #a100ebc4;
+          }
+          &:active {
+            color: #242424;
+          }
+        }
+        .icon-unique {
+          font-size: 1.9rem;
+        }
+
+        &:hover {
+          animation: social 0.5s ease-out 0.1s 1 alternate;
+        }
+      }
+    }
+  }
+}
+
+@keyframes social {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+// @media screen and (max-width: 768px) {
+//   .social {
+//     margin-top: 10%;
+//   }
+// }
