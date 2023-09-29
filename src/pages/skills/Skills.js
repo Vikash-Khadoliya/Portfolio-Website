@@ -31,7 +31,7 @@ function Skills() {
             return (
               <div key={item.id} className="skill-box">
                 <div className="skill-card">
-                  <img src={item.img} alt="MISSING" />
+                  <img src={item.img} alt="skill data not found" />
                 </div>
                 <div className="skill-text">
                   <h3 className="heading">{item.title}</h3>

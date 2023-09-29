@@ -10,9 +10,7 @@ function ParticleBackground() {
     await loadFull(engine);
   }, []);
 
-  const particlesLoaded = useCallback(async (containerBox) => {
-    await console.log(containerBox);
-  }, []);
+  const particlesLoaded = useCallback(async (containerBox) => {}, []);
 
   return (
     <div className="bcimage" id="home">

@@ -28,7 +28,7 @@ function AboutUs() {
       >
         <div className="container data">
           <div className="img-box">
-            <img src={ownerpic} alt="Photo Missing" />
+            <img src={ownerpic} alt="user data missing" />
           </div>
 
           <div className="content">

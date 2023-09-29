@@ -24,7 +24,7 @@ function Education() {
         </ScrollAnimation>
         <div className="college edu">
           <div className="img-box">
-            <img src={collegepic} alt="Photo Missing" />
+            <img src={collegepic} alt="data not found" />
           </div>
           <div className="text">
             <h3>Bachelor of Computer Application</h3>
@@ -38,7 +38,7 @@ function Education() {
         </div>
         <div className="school edu">
           <div className="img-box">
-            <img src={schoolpic} alt="Photo Missing" />
+            <img src={schoolpic} alt="something missing" />
           </div>
           <div className="text">
             <h3>Science (Maths)</h3>

@@ -15,6 +15,7 @@ function Social() {
             <a
               href="https://www.linkedin.com/in/mukesh-kumawat-89028325b"
               target="_blank"
+              rel="noreferrer noopener"
               className="icon"
             >
               <BsLinkedin />
@@ -24,6 +25,7 @@ function Social() {
             <a
               href="https://github.com/Mukesh-Kumawat-0o"
               target="_blank"
+              rel="noreferrer noopener"
               className="icon icon-unique"
             >
               <FaSquareGithub />
@@ -33,6 +35,7 @@ function Social() {
             <a
               href="https://wa.me/qr/OIEHTBGVIKWCP1"
               target="_blank"
+              rel="noreferrer noopener"
               className="icon icon-unique"
             >
               <FaSquareWhatsapp />
@@ -43,6 +46,7 @@ function Social() {
             <a
               href="https://t.me/+r_xj43LlHEQ3NTA9"
               target="_blank"
+              rel="noreferrer noopener"
               className="icon icon-unique"
             >
               <BsTelegram />
@@ -50,8 +54,9 @@ function Social() {
           </li>
           <li className="list">
             <a
-              target="_blank"
               href="https://www.facebook.com/profile.php?id=100078540844278"
+              target="_blank"
+              rel="noreferrer noopener"
               className="icon"
             >
               <BsFacebook />

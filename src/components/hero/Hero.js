@@ -38,6 +38,7 @@ function Hero() {
             <a
               href="https://drive.google.com/file/d/1xpTJH5cdhPea3V1d6CW00DP18cXPua2G/view?usp=sharing"
               className="btn"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Resume
@@ -46,7 +47,7 @@ function Hero() {
         </div>
 
         <div className="image-container">
-          <img src={ownerImg} alt="Owner Image" />
+          <img src={ownerImg} alt="user portfolio" />
         </div>
       </div>
 
