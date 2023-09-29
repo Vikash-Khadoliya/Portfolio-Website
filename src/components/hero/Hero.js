@@ -36,7 +36,7 @@ function Hero() {
           </div>
           <div className="button">
             <a
-              href="https://drive.google.com/file/d/1-j2VC33LqtYguNBAKIu8_paEJwlcCN1X/view?usp=sharing"
+              href="https://drive.google.com/file/d/1xpTJH5cdhPea3V1d6CW00DP18cXPua2G/view?usp=sharing"
               className="btn"
               target="_blank"
             >
