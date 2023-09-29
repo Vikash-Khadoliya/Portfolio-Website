@@ -23,5 +23,3 @@ function App() {
 }
 
 export default App;
-
-// --legacy-peer-deps

@@ -85,8 +85,8 @@ const skillData = [
 
   {
     id: 13,
-    img: "https://cdn.icon-icons.com/icons2/2107/PNG/96/file_type_netlify_icon_130354.png",
-    title: "Netlify",
+    img: "https://cdn.icon-icons.com/icons2/3915/PNG/512/vercel_logo_icon_249276.png",
+    title: "Vercel",
   },
 
   {
