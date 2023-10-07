@@ -4,13 +4,6 @@ import ownerImg from "../../Assets/user.png";
 import Social from "../social-media/Social";
 import { TypeAnimation } from "react-type-animation";
 
-const stringsToRender = [
-  "Web Designer",
-  "Forntend Developer",
-  "Backend Developer",
-  "MERN Stack Developer",
-];
-
 function Hero() {
   return (
     <div className="container hero-box">

@@ -12,7 +12,6 @@
       width: 400px;
       height: 400px;
       transition: 0.2s ease-in;
-      // animation-play-state: running;
       img {
         width: 100%;
         height: 100%;
@@ -84,11 +83,23 @@
 
 @media screen and (max-width: 480px) {
   .about {
+    padding-block: 40px;
+
     .data {
       .img-box {
-        width: 380px;
-        height: 380px;
+        width: 310px;
+        height: 310px;
         object-fit: contain;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .about {
+    .data {
+      .content {
+        padding-inline: 10px;
       }
     }
   }

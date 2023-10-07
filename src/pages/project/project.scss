@@ -89,7 +89,6 @@
       &:hover {
         .project-text {
           transform: translateY(35%);
-          // padding-block: 40px;
         }
       }
     }
@@ -124,8 +123,12 @@
 
 @media screen and (max-width: 480px) {
   .project {
+    padding-block: 40px;
+
     .projects {
       .project-parent {
+        padding-inline: 15px;
+
         .project-box {
           border-radius: 4px;
 

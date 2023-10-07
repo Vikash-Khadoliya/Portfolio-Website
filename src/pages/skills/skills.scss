@@ -72,9 +72,10 @@
 
 @media screen and (max-width: 480px) {
   .skill {
+    padding-block: 40px;
+
     .skills {
       transform: scale(0.9);
-      margin: 0px;
 
       .skill-box {
         height: 115px;

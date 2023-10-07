@@ -8,7 +8,7 @@
 .container {
   max-width: 1640px;
   margin: 0px auto;
-  padding: 0px 20px;
+  padding-inline: 20px;
   overflow: hidden;
 }
 
@@ -46,4 +46,21 @@ body {
 }
 .head .st2 {
   color: rgb(202, 85, 85);
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding-inline: 10px;
+  }
+
+  .head .icon {
+    color: whitesmoke;
+    font-size: 2.5rem;
+  }
+
+  .head .heading {
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: bolder;
+  }
 }

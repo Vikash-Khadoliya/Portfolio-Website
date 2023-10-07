@@ -129,6 +129,8 @@
 
 @media screen and (max-width: 480px) {
   .experience {
+    padding-block: 40px;
+
     padding-inline: 30px;
     .ex-box {
       align-self: flex-start;
@@ -147,6 +149,24 @@
             right: 0px;
             left: -31px;
           }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .experience {
+    padding-inline: 20px;
+    .ex-box {
+      .icon-box {
+        .left-box {
+          width: 330px;
+        }
+      }
+      .icon-box2 {
+        .right-box {
+          width: 330px;
         }
       }
     }
