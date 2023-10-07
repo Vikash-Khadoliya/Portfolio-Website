@@ -5,24 +5,16 @@ import { BsTelephone } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { SlLocationPin } from "react-icons/sl";
 import Social from "../../components/social-media/Social";
-import ScrollAnimation from "react-animate-on-scroll";
-import "../../utils/animation.css";
 
 function ContactUs() {
   return (
     <div className="contact" id="contact">
-      <ScrollAnimation
-        animateIn="animate__slideInDown"
-        duration={1}
-        animatePreScroll={false}
-      >
-        <div className="head">
-          <MdContacts className="icon" />
-          <h2 className="heading">
-            Contact <span className="st2">Me</span>
-          </h2>
-        </div>
-      </ScrollAnimation>
+      <div className="head">
+        <MdContacts className="icon" />
+        <h2 className="heading">
+          Contact <span className="st2">Me</span>
+        </h2>
+      </div>
 
       <div className="contact-box">
         <div className="left-part">

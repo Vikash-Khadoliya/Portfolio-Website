@@ -3,25 +3,17 @@ import "./education.scss";
 import schoolpic from "../../Assets/school.jpg";
 import collegepic from "../../Assets/college.jpg";
 import { GiSecretBook } from "react-icons/gi";
-import ScrollAnimation from "react-animate-on-scroll";
-import "../../utils/animation.css";
 import { BsFillPencilFill } from "react-icons/bs";
 
 function Education() {
   return (
     <div className="edu-box">
       <div className="education container">
-        <ScrollAnimation
-          animateIn="animate__slideInDown"
-          duration={1}
-          animatePreScroll={false}
-        >
-          <div className="head">
-            <GiSecretBook className="icon" />
-            <h2 className="heading">Education</h2>
-            <BsFillPencilFill className="st2" style={{ fontSize: "1.8rem" }} />
-          </div>
-        </ScrollAnimation>
+        <div className="head">
+          <GiSecretBook className="icon" />
+          <h2 className="heading">Education</h2>
+          <BsFillPencilFill className="st2" style={{ fontSize: "1.8rem" }} />
+        </div>
         <div className="college edu">
           <div className="img-box">
             <img src={collegepic} alt="data not found" />

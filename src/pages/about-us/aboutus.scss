@@ -12,6 +12,7 @@
       width: 400px;
       height: 400px;
       transition: 0.2s ease-in;
+      // animation-play-state: running;
       img {
         width: 100%;
         height: 100%;
@@ -67,9 +68,9 @@
       .content {
         padding-inline: 30px;
         text-align: justify;
-         .center-heading{
+        .center-heading {
           text-align: center;
-         }
+        }
         .pad2 {
           padding-block: 30px;
         }
@@ -86,7 +87,7 @@
     .data {
       .img-box {
         width: 380px;
-        height:380px;
+        height: 380px;
         object-fit: contain;
       }
     }
