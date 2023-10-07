@@ -1,8 +1,8 @@
 import React from "react";
 import "./hero.scss";
-import Typed from "react-typed";
 import ownerImg from "../../Assets/user.png";
 import Social from "../social-media/Social";
+import { TypeAnimation } from "react-type-animation";
 
 const stringsToRender = [
   "Web Designer",
@@ -25,12 +25,22 @@ function Hero() {
           <div className="detail">
             <h2 className="work-detail">
               I'm a{" "}
-              <Typed
+              <TypeAnimation
+                sequence={[
+                  1000,
+                  "Web Designer",
+                  1000,
+                  "Forntend Developer",
+                  1000,
+                  "Backend Developer",
+                  1000,
+                  "MERN Stack Developer",
+                  1000,
+                ]}
+                wrapper="span"
+                speed={40}
                 className="render-strings"
-                strings={stringsToRender}
-                typeSpeed={70}
-                backSpeed={50}
-                loop
+                repeat={Infinity}
               />
             </h2>
           </div>
