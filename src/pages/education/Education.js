@@ -4,16 +4,20 @@ import schoolpic from "../../Assets/school.jpg";
 import collegepic from "../../Assets/college.jpg";
 import { GiSecretBook } from "react-icons/gi";
 import { BsFillPencilFill } from "react-icons/bs";
+import { Bounce } from "react-awesome-reveal";
 
 function Education() {
   return (
     <div className="edu-box">
       <div className="education container">
-        <div className="head">
-          <GiSecretBook className="icon" />
-          <h2 className="heading">Education</h2>
-          <BsFillPencilFill className="st2" style={{ fontSize: "1.8rem" }} />
-        </div>
+        <Bounce duration={1000} delay={50}>
+          <div className="head">
+            <GiSecretBook className="icon" />
+            <h2 className="heading">Education</h2>
+            <BsFillPencilFill className="st2" style={{ fontSize: "1.8rem" }} />
+          </div>
+        </Bounce>
+
         <div className="college edu">
           <div className="img-box">
             <img src={collegepic} alt="data not found" />

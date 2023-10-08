@@ -7,7 +7,7 @@ import { Bounce, Zoom } from "react-awesome-reveal";
 function Skills() {
   return (
     <div className="skill center" id="skill">
-      <Bounce duration={1000}>
+      <Bounce duration={1000} delay={50}>
         <div className="head ">
           <SiMinds className="icon" />
           <h2 className="heading">

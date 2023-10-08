@@ -72,14 +72,25 @@
 
 @media screen and (max-width: 480px) {
   .skill {
-    padding-block: 40px;
-
     .skills {
-      transform: scale(0.9);
+      margin-top: -60px;
 
       .skill-box {
         height: 115px;
         width: 145px;
+        margin: 10px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 380px) {
+  .skill {
+    .skills {
+      margin-top: -60px;
+
+      .skill-box {
+        height: 105px;
+        width: 120px;
         margin: 10px;
       }
     }

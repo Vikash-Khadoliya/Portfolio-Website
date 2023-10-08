@@ -4,6 +4,7 @@ import { loadFull } from "tsparticles";
 import { useCallback } from "react";
 import "./particlebackground.scss";
 import Hero from "../components/hero/Hero";
+import { Fade } from "react-awesome-reveal";
 
 function ParticleBackground() {
   const particlesInit = useCallback(async (engine) => {
@@ -76,7 +77,9 @@ function ParticleBackground() {
           }}
         />
         <div className="hero-section">
-          <Hero />
+          <Fade delay={150}>
+            <Hero />
+          </Fade>
         </div>
       </div>
     </div>

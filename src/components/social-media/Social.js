@@ -54,7 +54,7 @@ function Social() {
           </li>
           <li className="list">
             <a
-              href="https://t.me/+SHAxtazvfFVlNzA1"
+              href="https://t.me/+fRBU5ONSHcNjMTA9"
               target="_blank"
               rel="noreferrer noopener"
               className="icon"

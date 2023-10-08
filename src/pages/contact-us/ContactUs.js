@@ -5,16 +5,19 @@ import { BsTelephone } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import { SlLocationPin } from "react-icons/sl";
 import Social from "../../components/social-media/Social";
+import { Bounce } from "react-awesome-reveal";
 
 function ContactUs() {
   return (
     <div className="contact" id="contact">
-      <div className="head">
-        <MdContacts className="icon" />
-        <h2 className="heading">
-          Contact <span className="st2">Me</span>
-        </h2>
-      </div>
+      <Bounce duration={1000} delay={50}>
+        <div className="head">
+          <MdContacts className="icon" />
+          <h2 className="heading">
+            Contact <span className="st2">Me</span>
+          </h2>
+        </div>
+      </Bounce>
 
       <div className="contact-box">
         <div className="left-part">
