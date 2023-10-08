@@ -54,7 +54,7 @@ function Social() {
           </li>
           <li className="list">
             <a
-              href="https://www.facebook.com/profile.php?id=100078540844278"
+              href="https://t.me/+SHAxtazvfFVlNzA1"
               target="_blank"
               rel="noreferrer noopener"
               className="icon"

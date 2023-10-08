@@ -12,7 +12,7 @@ const projectsData = [
     image:
       "https://user-images.githubusercontent.com/121726509/271015893-2136a07c-90ff-46d6-aa30-53a524a63ae0.png",
     title: "Portfolio Project",
-    view: "https://www.youtube.com/watch?si=ohc6Ib-UitUPHgww&v=NZbNuAWA_VM",
+    view: "https://mukesh-portfolio-beige.vercel.app/",
     code: "https://github.com/Mukesh-Kumawat-0o/Portfolio-Project.git",
   },
   {
