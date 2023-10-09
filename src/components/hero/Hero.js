@@ -39,7 +39,7 @@ function Hero() {
           </div>
           <div className="button">
             <a
-              href="https://drive.google.com/file/d/1xpTJH5cdhPea3V1d6CW00DP18cXPua2G/view?usp=sharing"
+              href="https://drive.google.com/file/d/1_UVmVJK96fn0mE6mDgY5eYYmP4xZ8Qv-/view?usp=sharing"
               className="btn"
               rel="noreferrer noopener"
               target="_blank"
