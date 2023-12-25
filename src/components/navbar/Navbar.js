@@ -16,7 +16,7 @@ function Navbar() {
             <img src={logoImg} alt="Owner Logo" />
           </div>
           <div className="name">
-            <h1 className="heading">Mukesh</h1>
+            <h1 className="heading">Vikash</h1>
           </div>
         </div>
         <div className={navMobile ? "list-parent" : "mobile-list-parent"}>

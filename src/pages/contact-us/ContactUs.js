@@ -22,7 +22,7 @@ function ContactUs() {
       <div className="contact-box">
         <div className="left-part">
           <h2 className="heading">
-            Mukesh's <span className="st06">Portfolio</span>
+           Vikash's <span className="st06">Portfolio</span>
           </h2>
           <p className="st03">
             Thank you for visiting my personal portfolio website. Connect with
@@ -35,11 +35,11 @@ function ContactUs() {
         <div className="right-part">
           <div className="email">
             <AiOutlineMail className="icon" />
-            <h4 className="heading">: mukeshkumawatb5@gmail.com</h4>
+            <h4 className="heading">: Khadoliyavikash@gmail.com</h4>
           </div>
           <div className="phone">
             <BsTelephone className="icon" />
-            <h4 className="heading">: +91 9509236243</h4>
+            <h4 className="heading">: +917597881864</h4>
           </div>
           <div className="location">
             <SlLocationPin className="icon" />

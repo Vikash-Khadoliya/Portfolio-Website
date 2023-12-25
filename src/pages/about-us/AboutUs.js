@@ -25,7 +25,7 @@ function AboutUs() {
 
         <div className="content">
           <JackInTheBox duration={1500}>
-            <h3 className="pad1 center-heading">I'm Mukesh Kumawat</h3>
+            <h3 className="pad1 center-heading">I'm Vikash Khadoliya</h3>
             <h4 className="center-heading">MERN Stack Developer</h4>
             <p className="pad2">
               Hii, I am a MERN Stack developer based in Rajasthan, India. I am
@@ -37,7 +37,7 @@ function AboutUs() {
               improve my skills.
             </p>
             <h4 className="pad1">
-              <span className="st1">Email :</span> mukeshkumawatb5@gmail.com
+              <span className="st1">Email :</span> Khadoliyavikash@gmail.com
             </h4>
             <h4>
               <span className="st1">Place :</span> Jhunjhunu, (Raj.), India

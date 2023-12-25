@@ -13,7 +13,7 @@ function Hero() {
             <h1 className="heading">Hello,</h1>
           </div>
           <div className="name">
-            <h2 className="user-name">I'm Mukesh Kumawat</h2>
+            <h2 className="user-name">I'm Vikash Khadoliya</h2>
           </div>
           <div className="detail">
             <h2 className="work-detail">
@@ -39,7 +39,7 @@ function Hero() {
           </div>
           <div className="button">
             <a
-              href="https://drive.google.com/file/d/130tsmM7ie2LSdc1TBMmCQQkma0mWbwkv/view?usp=sharing"
+              href="https://drive.google.com/file/d/1FjXpdyKpj-S9N8s9SGTYxQUvNqSEEdWw/view?usp=sharing"
               className="btn"
               rel="noreferrer noopener"
               target="_blank"

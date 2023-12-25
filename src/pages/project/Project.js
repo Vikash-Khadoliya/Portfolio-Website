@@ -46,7 +46,7 @@ function Project() {
                   </div>
                 </div>
               </div>
-            </JackInTheBox>
+            </JackInTheBox>00
           </div>
         ))}
       </div>

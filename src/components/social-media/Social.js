@@ -13,7 +13,7 @@ function Social() {
         <ul className="icon-list">
           <li className="list">
             <a
-              href="https://www.linkedin.com/in/mukesh-kumawat-89028325b"
+              href="https://www.linkedin.com/in/codewithvikash-584660292"
               target="_blank"
               rel="noreferrer noopener"
               className="icon"
@@ -23,7 +23,7 @@ function Social() {
           </li>
           <li className="list">
             <a
-              href="https://github.com/Mukesh-Kumawat-0o"
+              href="https://github.com/Vikash-Khadoliya"
               target="_blank"
               rel="noreferrer noopener"
               className="icon icon-unique"
@@ -33,7 +33,7 @@ function Social() {
           </li>
           <li className="list">
             <a
-              href="https://wa.me/qr/OIEHTBGVIKWCP1"
+              href="https://whatsapp.com/channel/0029VaBChYa2f3ENzSwHTY1v"
               target="_blank"
               rel="noreferrer noopener"
               className="icon icon-unique"
@@ -44,7 +44,7 @@ function Social() {
 
           <li className="list">
             <a
-              href="https://t.me/+r_xj43LlHEQ3NTA9"
+              href="https://t.me/codewithveekas"
               target="_blank"
               rel="noreferrer noopener"
               className="icon icon-unique"
@@ -54,7 +54,7 @@ function Social() {
           </li>
           <li className="list">
             <a
-              href="https://t.me/+fRBU5ONSHcNjMTA9"
+              href="https://www.facebook.com/profile.php?id=61552711176415&mibextid=ZbWKwL"
               target="_blank"
               rel="noreferrer noopener"
               className="icon"

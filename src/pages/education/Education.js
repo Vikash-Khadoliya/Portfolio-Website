@@ -37,9 +37,9 @@ function Education() {
             <img src={schoolpic} alt="something missing" />
           </div>
           <div className="text">
-            <h3>Science (Maths)</h3>
+            <h3>High school </h3>
             <p className="st5">
-              Kshitiz Memorial Public Sr. Sec. School, Udaipurwati
+            jaipuria Public Sr. Sec. School, Nawalgarh
             </p>
             <h4>
               2019-2021 | <span className="st4">Completed</span>
