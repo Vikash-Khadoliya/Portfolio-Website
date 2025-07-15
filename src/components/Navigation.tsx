@@ -54,9 +54,24 @@ const Navigation = () => {
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-professional transition-all duration-300 group-hover:w-full"></span>
               </a>
             ))}
-            <Button variant="professional" size="sm" className="px-6">
-              Hire Me
-            </Button>
+            <div className="flex gap-2">
+              <Button
+                asChild
+                variant="professional"
+                size="sm"
+                className="px-4"
+              >
+                <a href="mailto:Khadoliyavikash@gmail.com">Email</a>
+              </Button>
+              <Button
+                asChild
+                variant="professional"
+                size="sm"
+                className="px-4"
+              >
+                <a href="tel:+917597881864">Call</a>
+              </Button>
+            </div>
           </div>
           
           {/* Mobile Menu Button */}
@@ -84,9 +99,12 @@ const Navigation = () => {
                   {item.label}
                 </a>
               ))}
-              <div className="px-4">
-                <Button variant="professional" size="sm" className="w-full px-6">
-                  Hire Me
+              <div className="px-4 flex gap-2">
+                <Button asChild variant="professional" size="sm" className="w-full px-4">
+                  <a href="mailto:Khadoliyavikash@gmail.com">Email</a>
+                </Button>
+                <Button asChild variant="professional" size="sm" className="w-full px-4">
+                  <a href="tel:+917597881864">Call</a>
                 </Button>
               </div>
             </div>

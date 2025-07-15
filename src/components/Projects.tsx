@@ -6,11 +6,11 @@ import { ExternalLink, Github, Smartphone, Globe, Database } from "lucide-react"
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "E-Commerce Website",
       description: "Full-stack e-commerce solution with modern design, secure payments, and admin dashboard. Built with React and Node.js.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
+      image: "/lovable-uploads/Screenshot 2025-07-15 171250.png",
       technologies: ["React", "Node.js", "MongoDB", "Stripe", "JWT"],
-      liveUrl: "#",
+      liveUrl: "http://maxzoneclothing.com/",
       githubUrl: "#",
       category: "Full Stack",
       icon: Globe
@@ -18,9 +18,9 @@ const Projects = () => {
     {
       title: "Task Management App",
       description: "Collaborative task management application with real-time updates, team collaboration features, and intuitive UI.",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop",
+      image: "/lovable-uploads/Screenshot 2025-07-15 172739.png",
       technologies: ["React", "Firebase", "Tailwind CSS", "WebSocket"],
-      liveUrl: "#",
+      liveUrl: "https://www.officetimer.com/",
       githubUrl: "#",
       category: "Frontend",
       icon: Smartphone
@@ -28,9 +28,9 @@ const Projects = () => {
     {
       title: "Restaurant Management System",
       description: "Complete restaurant management system with order tracking, inventory management, and customer dashboard.",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop",
+      image: "/lovable-uploads/5600vk.png",
       technologies: ["PHP", "MySQL", "Bootstrap", "jQuery"],
-      liveUrl: "#",
+      liveUrl: "https://www.delikopos.com/m",
       githubUrl: "#",
       category: "Backend",
       icon: Database
@@ -40,7 +40,7 @@ const Projects = () => {
       description: "Modern, responsive portfolio website with smooth animations, contact forms, and optimized performance.",
       image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=600&h=400&fit=crop",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-      liveUrl: "#",
+      liveUrl: "https://mukesh-kumawat-portfolio.vercel.app/",
       githubUrl: "#",
       category: "Frontend",
       icon: Globe
@@ -99,14 +99,19 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex gap-3 pt-4">
-                  <Button variant="cta" size="sm" className="flex-1">
-                    <ExternalLink className="w-4 h-4" />
-                    Live Demo
-                  </Button>
-                  <Button variant="outline" size="sm" className="flex-1">
-                    <Github className="w-4 h-4" />
-                    Source Code
-                  </Button>
+                  {project.title === "Portfolio Website" ? (
+                    <Button asChild variant="cta" size="sm" className="flex-1">
+                      <a href="https://mukesh-kumawat-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <ExternalLink className="w-4 h-4" />
+                        Live Demo
+                      </a>
+                    </Button>
+                  ) : (
+                    <Button variant="cta" size="sm" className="flex-1">
+                      <ExternalLink className="w-4 h-4" />
+                      Live Demo
+                    </Button>
+                  )}
                 </div>
               </CardContent>
             </Card>

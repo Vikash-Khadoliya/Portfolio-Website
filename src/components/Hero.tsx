@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Github, Linkedin, Mail, MapPin, Download, Building2 } from "lucide-react";
+import { Github, Linkedin, Mail, Instagram, MapPin, Download, Building2 } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -53,26 +53,30 @@ const Hero = () => {
             </div>
             
             <div className="flex flex-wrap gap-4">
-              <Button variant="hero" size="lg" className="group shadow-professional">
-                <Mail className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />
-                Get In Touch
+              <Button asChild variant="hero" size="lg" className="group shadow-professional">
+                <a href="mailto:khadoliyavikash@gmail.com">
+                  <Mail className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />
+                  Get In Touch
+                </a>
               </Button>
               
-              <Button variant="outline" size="lg" className="group border-primary/20 hover:bg-primary/5">
-                <Download className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />
-                Download Resume
+              <Button asChild variant="outline" size="lg" className="group border-primary/20 hover:bg-primary/5">
+                <a href="https://drive.google.com/file/d/1axS6HKv8YEEHPgbyxLEQcfBclg4IbNfh/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+                  <Download className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />
+                  Download Resume
+                </a>
               </Button>
             </div>
             
             <div className="flex gap-6 pt-4">
-              <a href="#" className="text-muted-foreground hover:text-primary transition-all duration-300 transform hover:scale-110">
+              <a href="https://github.com/Vikash-Khadoliya" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-all duration-300 transform hover:scale-110">
                 <Github className="w-6 h-6" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-all duration-300 transform hover:scale-110">
+              <a href="https://www.linkedin.com/in/vikash-khadoliya-584660292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-all duration-300 transform hover:scale-110">
                 <Linkedin className="w-6 h-6" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-all duration-300 transform hover:scale-110">
-                <Mail className="w-6 h-6" />
+              <a href="https://www.instagram.com/the__.vikash?igsh=MTk1OWdvOG9vazJsMA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-all duration-300 transform hover:scale-110">
+                <Instagram className="w-6 h-6" />
               </a>
             </div>
           </div>
@@ -82,11 +86,13 @@ const Hero = () => {
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-professional rounded-3xl blur-2xl opacity-20 scale-110 group-hover:opacity-30 transition-opacity"></div>
               <div className="relative bg-card rounded-3xl p-8 shadow-professional border">
-                <img
-                  src="/lovable-uploads/0037b59d-19af-4502-8d6d-f68cf2eafe09.png"
-                  alt="Vikash Khadoliya - Full Stack Developer"
-                  className="w-72 h-72 lg:w-80 lg:h-80 object-cover rounded-2xl shadow-elegant"
-                />
+                <a href="/lovable-uploads/0037b59d-19af-4502-8d6d-f68cf2eafe09.jpg" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src="/lovable-uploads/0037b59d-19af-4502-8d6d-f68cf2eafe09.jpg"
+                    alt="Vikash Khadoliya - Full Stack Developer"
+                    className="w-72 h-72 lg:w-80 lg:h-80 object-cover rounded-2xl shadow-elegant cursor-pointer"
+                  />
+                </a>
                 <div className="absolute -bottom-4 -right-4 bg-gradient-professional rounded-2xl p-4 shadow-professional text-white">
                   <div className="text-sm font-semibold">Available for Projects</div>
                   <div className="text-xs opacity-90">W3 Software Solutions</div>
