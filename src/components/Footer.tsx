@@ -17,9 +17,6 @@ const Footer = () => {
             <Badge variant="outline" className="bg-background/10 text-background border-background/20">
               Available for freelance work
             </Badge>
-            <a href="https://github.com/Vikash-Khadoliya" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-background/10 rounded-lg flex items-center justify-center hover:bg-background/20 transition-colors">
-              <Github className="w-5 h-5" />
-            </a>
           </div>
           
           {/* Quick Links */}
