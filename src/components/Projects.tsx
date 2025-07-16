@@ -101,7 +101,7 @@ const Projects = () => {
                 <div className="flex gap-3 pt-4">
                   {project.title === "Portfolio Website" ? (
                     <Button asChild variant="cta" size="sm" className="flex-1">
-                      <a href="https://mukesh-kumawat-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">
+                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                         <ExternalLink className="w-4 h-4" />
                         Live Demo
                       </a>
