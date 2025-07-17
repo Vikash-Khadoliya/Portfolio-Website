@@ -88,7 +88,7 @@ const Hero = () => {
               <div className="relative bg-card rounded-3xl p-8 shadow-professional border">
                 <a href="/lovable-uploads/0037b59d-19af-4502-8d6d-f68cf2eafe09.jpg" target="_blank" rel="noopener noreferrer">
                   <img
-                    src="/lovable-uploads/0037b59d-19af-4502-8d6d-f68cf2eafe09.jpg"
+                    src="assets/vikash.jpg"
                     alt="Vikash Khadoliya - Full Stack Developer"
                     className="w-72 h-72 lg:w-80 lg:h-80 object-cover rounded-2xl shadow-elegant cursor-pointer"
                   />
