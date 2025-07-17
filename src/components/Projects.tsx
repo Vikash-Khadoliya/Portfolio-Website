@@ -123,16 +123,21 @@ const Projects = () => {
 
                 <div className="flex gap-3 pt-4">
                   {project.liveUrl && (
-                    <Button asChild variant="cta" size="sm" className="flex-1">
-                      <a
-                        href={project.liveUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1"
+                    >
+                      <Button
+                        variant="cta"
+                        size="sm"
+                        className="w-full flex items-center justify-center gap-2"
                       >
                         <ExternalLink className="w-4 h-4" />
                         Live Demo
-                      </a>
-                    </Button>
+                      </Button>
+                    </a>
                   )}
                 </div>
               </CardContent>
