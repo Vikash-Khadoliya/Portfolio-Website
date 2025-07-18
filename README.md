@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to your Lovable project
 
 ## Project info
@@ -79,3 +80,9 @@ Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-trick
 # Vikash-web
 # Portfolio-Website
 # Portfolio-Website
+=======
+website-development-projects
+Screenshot🔗
+1. https://drive.google.com/file/d/1-bC_ZpvTTIM44CyMm8ucvoc9-CH8XyVW/view?usp=drive_link
+2. https://vercel.com/codewithvikashs-projects/portfolio-website
+>>>>>>> 6128d5172753353f2c86280c001d93853a880d79

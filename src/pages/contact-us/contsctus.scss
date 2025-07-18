@@ -1,0 +1,118 @@
+.contact {
+  background-image: linear-gradient(to right bottom, #1c1b1b 0%, #000915 100%);
+  padding-top: 50px;
+  padding-bottom: 30px;
+  .contact-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    .left-part {
+      width: 20%;
+      color: white;
+      .heading {
+        padding-bottom: 8px;
+        .st06 {
+          color: #ca5555;
+        }
+      }
+      .st03 {
+        line-height: 1.5rem;
+      }
+    }
+    .middle-part {
+      margin-left: -60px;
+    }
+    .right-part {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 20px;
+
+      .email,
+      .phone,
+      .location {
+        .icon {
+          font-size: 1.6rem;
+          margin-right: 6px;
+          transition: 0.1s ease-in;
+          &:hover {
+            color: #ca5555;
+          }
+        }
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .contact {
+    .contact-box {
+      .middle-part {
+        margin-left: 0px;
+      }
+      .left-part {
+        width: 27%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    .contact-box {
+      flex-wrap: wrap;
+      .left-part {
+        width: 45%;
+      }
+      .right-part {
+        margin-top: 40px;
+        margin-inline: 40px;
+        flex-direction: row;
+
+        .email,
+        .phone,
+        .location {
+          .icon {
+            margin-top: -20px;
+            color: #ca5555;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact {
+    padding-block: 40px;
+    .contact-box {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .left-part {
+        width: 70%;
+      }
+      .middle-part {
+        margin-left: -30px;
+      }
+      .right-part {
+        flex-direction: column;
+        margin-top: 30px;
+        margin-inline: 0px;
+        .email,
+        .phone,
+        .location {
+          .icon {
+            margin-top: 0px;
+          }
+        }
+      }
+    }
+  }
+}
